@@ -3361,3 +3361,40 @@ id.args = 2
 id.arg = MKL$(INTEGER64TYPE - ISPOINTER) + MKL$(LONGTYPE - ISPOINTER)
 id.ret = INTEGER64TYPE - ISPOINTER
 regid
+
+clearid
+id.n = "_READBIT"
+id.subfunc = 1
+id.callname = "_READBIT"
+id.args = 2
+id.arg = MKL$(INTEGER64TYPE - ISPOINTER) + MKL$(LONGTYPE - ISPOINTER)
+id.ret = INTEGER64TYPE - ISPOINTER
+regid
+
+clearid
+id.n = "_SETBIT"
+id.subfunc = 1
+id.callname = "_SETBIT"
+id.args = 2
+id.arg = MKL$(INTEGER64TYPE - ISPOINTER) + MKL$(LONGTYPE - ISPOINTER)
+id.ret = INTEGER64TYPE - ISPOINTER
+regid
+
+clearid
+id.n = "_RESETBIT"
+id.subfunc = 1
+id.callname = "_RESETBIT"
+id.args = 2
+id.arg = MKL$(INTEGER64TYPE - ISPOINTER) + MKL$(LONGTYPE - ISPOINTER)
+id.ret = INTEGER64TYPE - ISPOINTER
+regid
+
+clearid
+id.n = "_TOGGLEBIT"
+id.subfunc = 1
+id.callname = "_TOGGLEBIT"
+id.args = 2
+id.arg = MKL$(INTEGER64TYPE - ISPOINTER) + MKL$(LONGTYPE - ISPOINTER)
+id.ret = INTEGER64TYPE - ISPOINTER
+regid
+
